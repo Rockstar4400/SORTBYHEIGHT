@@ -1,6 +1,13 @@
 /*
 CODESIGNAL - SORTBYHEIGHT
 
+Source Help:
+https://www.geeksforgeeks.org/list-interface-java-examples/
+https://www.geeksforgeeks.org/arrays-sort-in-java-with-examples/
+https://stackoverflow.com/questions/20518078/how-to-sort-listinteger
+https://www.geeksforgeeks.org/list-get-method-in-java-with-examples/
+https://stackoverflow.com/questions/12949690/java-arraylist-how-to-add-elements-at-the-beginning
+
 Some people are standing in a row in a park.
 There are trees between them which cannot be moved.
 Your task is to rearrange the people by their heights in a non-descending
@@ -17,7 +24,8 @@ Input/Output
 
 [input] array.integer a
 
-If a[i] = -1, then the ith position is occupied by a tree. Otherwise a[i] is the height of a person standing in the ith position.
+If a[i] = -1, then the ith position is occupied by a tree. Otherwise a[i] is the height of a person standing in
+the ith position.
 
 Guaranteed constraints:
 1 ≤ a.length ≤ 1000,
@@ -41,7 +49,6 @@ String helloWorld(String name) {
 
 import java.util.ArrayList;
 import java.util.Collections;
-
 
 public class sortByHeight {
 
